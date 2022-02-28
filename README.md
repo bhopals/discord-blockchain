@@ -16,15 +16,31 @@ Build Discord Web 3.0
 ## Directories Details
 
 - Client
-- npx create-next-app .
+
+  - cd client
+  - npx create-next-app .
 
 - Server
 
+  - cd server
+  - npm i -g yarn
+  - yarn init
+    - question name (server): discord-gun-node
+    - question version (1.0.0):
+    - question description:
+    - question entry point (index.js): server.js
+    - question repository url:
+    - question author:
+    - question license (MIT):
+    - question private:
+
 - Studio
-- Setup Sanity (https://www.sanity.io/cleverprogrammer)
-  npm install -g @sanity/cli
-  sanity init --coupon cleverprogrammer
-  - Login using Email
-  - Enter Project Name
-  - Select Project Template - (Clean project with no predefined schema)
-  - Enter
+
+  - cd studio
+  - Setup Sanity (https://www.sanity.io/cleverprogrammer)
+    npm install -g @sanity/cli
+    sanity init --coupon cleverprogrammer
+    - Login using Email
+    - Enter Project Name
+    - Select Project Template - (Clean project with no predefined schema)
+    - Enter
