@@ -16,9 +16,15 @@ Build Discord Web 3.0
 ## Directories Details
 
 - Client
-
-  - npx create-next-app .
+- npx create-next-app .
 
 - Server
 
 - Studio
+- Setup Sanity (https://www.sanity.io/cleverprogrammer)
+  npm install -g @sanity/cli
+  sanity init --coupon cleverprogrammer
+  - Login using Email
+  - Enter Project Name
+  - Select Project Template - (Clean project with no predefined schema)
+  - Enter
