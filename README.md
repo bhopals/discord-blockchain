@@ -16,5 +16,9 @@ Build Discord Web 3.0
 ## Directories Details
 
 - Client
+
+  - npx create-next-app .
+
 - Server
+
 - Studio
