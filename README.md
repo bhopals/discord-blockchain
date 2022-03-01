@@ -11,20 +11,23 @@ Build Discord Web 3.0
 - Meta Mask - Authentication
 - Sanity - Backend Database
 - GROQ (Graph-Relational Object Queries) - A declarative query language
-- Versel - Deployment
+- Versel - Deploy, Preview, and Ship with Delightful User Experience
+  Vercel is a platform for frontend frameworks and static sites, built to integrate with your headless content, commerce, or database.
+  It provides a frictionless developer experience to take care of the hard things: deploying instantly, scaling automatically, and serving personalized content around the globe.
+  It makes easy for frontend teams to develop, preview, and ship delightful user experiences, where performance is the default.
 
 ## Directories Details
 
 - Client
 
   - cd client
-  - npx create-next-app .
+  - `npx create-next-app .`
 
 - Server
 
   - cd server
-  - npm i -g yarn
-  - yarn init
+  - `npm i -g yarn`
+  - `yarn init`
     - question name (server): discord-gun-node
     - question version (1.0.0):
     - question description:
@@ -38,8 +41,8 @@ Build Discord Web 3.0
 
   - cd studio
   - Setup Sanity (https://www.sanity.io/cleverprogrammer)
-    npm install -g @sanity/cli
-    sanity init --coupon cleverprogrammer
+    `npm install -g @sanity/cli`
+    `sanity init --coupon cleverprogrammer`
     - Login using Email
     - Enter Project Name
     - Select Project Template - (Clean project with no predefined schema)
@@ -47,7 +50,7 @@ Build Discord Web 3.0
 
 - Parent Dir
   - setup Vercel
-    - install vercel CLI - npm i -g vercel
+    - install vercel CLI - `npm i -g vercel`
     - versel
       Vercel CLI 24.0.0
       > > No existing credentials found. Please log in:
@@ -70,3 +73,7 @@ Build Discord Web 3.0
         ✅ Production: https://discord-blockchain-khaki.vercel.app [copied to clipboard] [38s]
         📝 Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
         💡 To change the domain or build command, go to https://vercel.com/bhopals/discord-blockchain/settings
+
+## Run Project
+
+- Run `vercel dev` from main directory - http://localhost:3000/
