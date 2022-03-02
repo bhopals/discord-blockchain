@@ -53,17 +53,17 @@ Build Discord Web 3.0
     - install vercel CLI - `npm i -g vercel`
     - versel
       Vercel CLI 24.0.0
-      > > No existing credentials found. Please log in:
-      > > Log in to Vercel email
-      > > Enter your email address: bhopalsinghsis@gmail.com
-      > > We sent an email to bhopalsinghsis@gmail.com. Please follow the steps provided inside it and make sure the security code matches Unusual Sponge.
-      > > Success! Email authentication complete for bhopalsinghsis@gmail.com
-      > > ? Set up and deploy “~/git-repos/discord-blockchain”? [Y/n] y
-      > > ? Which scope do you want to deploy to? Bhopal Singh
-      > > ? Link to existing project? [y/N] n
-      > > ? What’s your project’s name? discord-blockchain
-      > > ? In which directory is your code located? ./client
-      > > No framework detected. Default Project Settings:
+      > No existing credentials found. Please log in:
+      > Log in to Vercel email
+      > Enter your email address: bhopalsinghsis@gmail.com
+      > We sent an email to bhopalsinghsis@gmail.com. Please follow the steps provided inside it and make sure the security code matches Unusual Sponge.
+      > Success! Email authentication complete for bhopalsinghsis@gmail.com
+      > ? Set up and deploy “~/git-repos/discord-blockchain”? [Y/n] y
+      > ? Which scope do you want to deploy to? Bhopal Singh
+      > ? Link to existing project? [y/N] n
+      > ? What’s your project’s name? discord-blockchain
+      > ? In which directory is your code located? ./client
+      > No framework detected. Default Project Settings:
       - Build Command: `npm run vercel-build` or `npm run build`
       - Output Directory: `public` if it exists, or `.`
       - Development Command: None
